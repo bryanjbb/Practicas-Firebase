@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "MyProject",
+    "slug": "MyProject",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "edgeToEdgeEnabled": true
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "FIREBASE_API_KEY": "AIzaSyDuEX_RUHjAj0Ertms0Hrs3larV6jsNsDI",
+      "FIREBASE_AUTH_DOMAIN": "practica1-6e799.firebaseapp.com",
+      "FIREBASE_PROJECT_ID": "practica1-6e799",
+      "FIREBASE_MESSAGING_SENDER_ID": "910373217318",
+      "FIREBASE_APP_ID": "1:910373217318:web:73aafaffb4bad49fe032e7"
+    }
+  }
+}
