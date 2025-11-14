@@ -1,9 +1,10 @@
 import React, { useEffect, useState } from "react";
-import { View, StyleSheet } from "react-native";
+import { View, StyleSheet,Button } from "react-native";
 import { db } from "../components/database/firebaseconfig.js";
 import { collection, getDocs, deleteDoc, doc } from "firebase/firestore";
 import FormularioProductos from "../components/Productos/FormularioProductos.js";
 import TablaProductos from "../components/Productos/TablaProductos.js";
+import extraerYGuardarExcel from "./ExtraeryGuardarExcel.js";
 
 
 const Productos = () => {
@@ -41,6 +42,9 @@ const Productos = () => {
             <TablaProductos
             Productos={Productos}
              eliminarProducto={eliminarProducto} />
+             <View style={{marginVertical: 20}}>
+                <Button title="Importar Mascotas desde Excel" onPress={extraerYGuardarExcel} />
+            </View>
         </View>
 
     );
